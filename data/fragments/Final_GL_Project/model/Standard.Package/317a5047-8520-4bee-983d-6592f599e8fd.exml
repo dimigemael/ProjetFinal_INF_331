@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sequence_Diagram" version="4">
+  <OBJECT>
+    <ID name="Sequence_Diagram" mc="Standard.Package" uid="317a5047-8520-4bee-983d-6592f599e8fd"/>
+    <PID name="final_gl_project" mc="Standard.Package" uid="d6c329cc-2ae9-4a17-befa-598e098fd140"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Sequence_Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Sequence_Depôt_Candidature" mc="Standard.Package" uid="ae0f1e7b-681a-42bd-8d91-da29e422a443"/>
+        <COMPID name="Sequence_Parametrer_élection" mc="Standard.Package" uid="60b22d28-ba2e-4309-9af4-d915180e9ed3"/>
+        <COMPID name="Sequence_Diagram_Effectuer_Un_Vote" mc="Standard.Package" uid="77d9b957-b807-49e2-9d7b-2aba00778c10"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="9659e769-b1ec-475e-9fba-b51395ceaeb9"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Le diagramme de séquence permet de représenter la sequence de messages entre les objets au cours d'une interaction. Ainsi,nous somme le diagramme de séquence pour effectuer un vote, paramétrer election, dépot candidature.
+
+
+ ]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

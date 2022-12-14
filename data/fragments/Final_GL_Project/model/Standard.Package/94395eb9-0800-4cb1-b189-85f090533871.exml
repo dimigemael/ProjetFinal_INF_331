@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activité_Depôt_Candidature" version="4">
+  <OBJECT>
+    <ID name="Activité_Depôt_Candidature" mc="Standard.Package" uid="94395eb9-0800-4cb1-b189-85f090533871"/>
+    <PID name="Acticity_Diagram" mc="Standard.Package" uid="eb6c0671-3290-4521-89e3-cd192d11f51c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Activité_Depôt_Candidature]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="ce0db566-9b12-4fc2-b65d-362d64b9b4c2"/>
+      </COMP>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="[Verification=vrai]" mc="Standard.InformationFlow" uid="4260eb0f-b7ec-4772-a938-fdb85200e549"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[[Verification=vrai]]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="63154512-e988-4658-ad45-f05bee2079d6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Envoi du formulaire de candidature" mc="Standard.OpaqueAction" uid="f5a25467-37ea-4c4d-81d7-62b45e0f3729"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="[Verification!=vrai]" mc="Standard.InformationFlow" uid="b5d6fcd0-ff43-4738-ace5-a71c706bec65"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[[Verification!=vrai]]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="63154512-e988-4658-ad45-f05bee2079d6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Demande de depot de candidature" mc="Standard.OpaqueAction" uid="26124b84-c244-446f-a1c8-9962875696ac"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="[Verification=vrai]" mc="Standard.InformationFlow" uid="9a46bf33-6890-4f4d-86e9-fd8b1671dee5"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[[Verification=vrai]]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Decision-Merge1" mc="Standard.DecisionMergeNode" uid="7b387105-9df3-4fdb-be5d-533041f161cb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Notification de validation" mc="Standard.OpaqueAction" uid="b75145f2-e736-4ca7-900a-eec186ea4f27"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="[Verification!=vrai]" mc="Standard.InformationFlow" uid="989a5fae-6c65-4bbd-bee3-aba700cf8ea7"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[[Verification!=vrai]]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Decision-Merge1" mc="Standard.DecisionMergeNode" uid="7b387105-9df3-4fdb-be5d-533041f161cb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Envoi du formulaire de candidature" mc="Standard.OpaqueAction" uid="f5a25467-37ea-4c4d-81d7-62b45e0f3729"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

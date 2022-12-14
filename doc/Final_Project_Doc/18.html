@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <title>Document</title>
+  <meta content="Document Publisher, www.modeliosoft.com/" name="generator"/>
+	<link href="docp-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript">
+     function hideLoading() {
+          document.getElementById('divLoading').style.display = "none";
+          document.getElementById('divFrameHolder').style.display = "block";
+     }
+   
+     function getPageName(url) {
+          var index = url.lastIndexOf("/") + 1;
+          var filenameWithExtension = url.substr(index);
+          var filename = filenameWithExtension.split(".")[0];
+          return filename;
+     }
+  
+     function updateSidebarFrameSrc() {
+          var currentpagename = getPageName(window.location.pathname);
+          document.getElementById("sidebar_frame").src="index.html?page=" + currentpagename;
+     }  
+  
+     if (window.addEventListener)
+          window.addEventListener("load", updateSidebarFrameSrc, false);
+     else if (window.attachEvent)
+          window.attachEvent("onload", updateSidebarFrameSrc);
+     else 
+          window.onload = updateSidebarFrameSrc;
+  </script> 
+  <link href="default.css" media="screen" rel="stylesheet" type="text/css"/></head>
+  <body>
+    <div id="container">        
+      <div id="content">          
+        <div id="header">            
+          <div id="logo"><img src="img/logo.png"/></div>
+          <h1 class="documentTitle">Document</h1>
+          <h2 class="documentType">Subject</h2>            
+        </div>
+				<div id="gTable">
+					<div id="tSidebar"><div id="divLoading"><img alt="" src="img/ajax-loader.gif"/></div><div id="divFrameHolder"><iframe frameborder="0" id="sidebar_frame" src="index.html"><p>Votre navigateur ne supporte pas les iframes.</p></iframe></div><script type="text/javascript">document.getElementById('divLoading').style.display = "block";
+document.getElementById('divFrameHolder').style.display = "none";
+document.getElementById('sidebar_frame').onload = function() {
+hideLoading();
+}</script></div>
+          <div id="tMainArea">
+            <div id="navbar"><ul><li id="prev"><a href="17.html" title="17.html">&lt; Précédent</a></li><li class="disable" id="summary">Modèle</li><li id="next"><a href="19.html" title="19.html">Suivant &gt;</a></li></ul></div>
+            <div id="page"><div><div align="LEFT" characterStyle="None" class="Titre3" sectionStyle="Titre3" startOnNewPage="true"><a name="toc1.2.2" target="_top"><!--anchor--></a>Gerer_Candidature_Use_Case<a name="_c7b95d00-7cb5-4775-a72b-354057432228" target="_top"><!--anchor--></a></div><div align="LEFT" class="Texte" paragraphStyle="Texte" startOnNewPage="false">Package</div><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">Ce cas d'utilisation est constitué de toutes les fonctionnalités relatives aux candidatures
+
+
+</div><div align="LEFT" class="Texte" paragraphStyle="Texte" startOnNewPage="false">Gerer_Candidature_Use_Case</div><a name="#Table 19" target="_top"><!--anchor--></a><div id="tableContainer"><table class="ListeclaireAccent1" horizontal="true" tableStyle="ListeclaireAccent1"><caption>Table 19 - "Gerer_Candidature_Use_Case" properties</caption><tr class="odd"><th><div align="CENTER" class="Normal" paragraphStyle="Normal" startOnNewPage="false">Name</div></th><th><div align="CENTER" class="Normal" paragraphStyle="Normal" startOnNewPage="false">Value</div></th></tr><tr class="even"><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">Name</div></td><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">Gerer_Candidature_Use_Case</div></td></tr><tr class="odd"><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">IsAbstract</div></td><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">false</div></td></tr><tr class="even"><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">IsInstantiable</div></td><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">false</div></td></tr><tr class="odd"><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">IsLeaf</div></td><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">false</div></td></tr><tr class="even"><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">IsRoot</div></td><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">false</div></td></tr><tr class="odd"><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">Owner</div></td><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false"/><a href="18.html#_c7b95d00-7cb5-4775-a72b-354057432228" target="_top"/></td></tr><tr class="even"><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">OwnerTemplateParameter</div></td><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false"/></td></tr><tr class="odd"><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">Represented</div></td><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false"/></td></tr><tr class="even"><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">Visibility</div></td><td><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false">Public</div></td></tr></table></div><div>
+</div><div align="LEFT" class="Soustitre" paragraphStyle="Soustitre" startOnNewPage="false">Gestion_Candidatures_Use_Case</div><a name="#Figure 9" target="_top"><!--anchor--></a><center><img alt="" height="392.7654609101517" paragraphStyle="IMAGE" src="img/724a43cc-220c-4662-8f4d-5081cc057385.png" usemap="#724a43cc-220c-4662-8f4d-5081cc057385" width="600.0"/></center><a class="openImage" href="img/724a43cc-220c-4662-8f4d-5081cc057385.png"><img class="openImage" src="img/zoom.gif" title="Zoom"/></a><map name="724a43cc-220c-4662-8f4d-5081cc057385"><area ALT="Admin" coords="56,223,100,247" href="19.html#_a89e578f-e091-4d24-bf1c-abf998c74b59" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="Admin" coords="56,178,100,223" href="19.html#_a89e578f-e091-4d24-bf1c-abf998c74b59" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="Candidat" coords="485,212,539,237" href="20.html#_ac9df0e0-47f5-459a-930f-46587ad51661" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="Candidat" coords="490,168,534,212" href="20.html#_ac9df0e0-47f5-459a-930f-46587ad51661" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="" coords="476,280,600,378" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="" coords="0,266,98,322" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="" coords="0,336,98,392" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="" coords="0,70,120,154" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="" coords="3,0,116,56" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="" coords="476,14,600,108" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="Valider Candidature" coords="233,56,373,93" href="21.html#_397517c2-5ccd-4e56-b879-da0f35b2a6fb" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="Editer Candidature" coords="233,294,373,328" href="22.html#_f685c989-a8c9-426c-9fd9-c31c69a2fa32" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="Authentification" coords="294,182,420,210" href="23.html#_94f5356c-c71c-4edd-a6a2-3b7874a50c25" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/><area ALT="Gerer_Candidature_Use_Case" coords="168,17,434,378" href="18.html#_c7b95d00-7cb5-4775-a72b-354057432228" name="724a43cc-220c-4662-8f4d-5081cc057385" shape="rect"/></map><div align="LEFT" class="Normal" paragraphStyle="Normal" startOnNewPage="false"/></div></div>
+            <br/>
+            <div class="spacer" id="navbar"><ul><li id="prev"><a href="17.html" title="17.html">&lt; Précédent</a></li><li class="disable" id="summary">Modèle</li><li id="next"><a href="19.html" title="19.html">Suivant &gt;</a></li></ul></div>  
+            <div id="footer"><p>Document généré automatiquement par Modelio Document Publisher.<br/><a href="http://www.modeliosoft.com">www.modeliosoft.com</a></p></div>
+          </div>            
+        </div>           
+      </div>
+    </div>
+  </body>
+</html>

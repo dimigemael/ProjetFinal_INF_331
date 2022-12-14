@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Use_Case_Diagram" version="4">
+  <OBJECT>
+    <ID name="Use_Case_Diagram" mc="Standard.Package" uid="fae8e963-fc79-4135-b72a-d38be115e3bc"/>
+    <PID name="Use_Case_Diagram" mc="Standard.Package" uid="fb50c57a-6c16-4cd0-a080-640195d74e17"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Use_Case_Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Définir période" mc="Standard.UseCase" uid="419674e8-91f1-49e3-a408-822e7e8f8b93"/>
+        <COMPID name="Promulger_Résultat" mc="Standard.UseCase" uid="bf0660cf-a8e8-45c5-b9c7-4a98282ef9e8"/>
+        <COMPID name="Authentification" mc="Standard.UseCase" uid="3727e4e3-b779-4262-9b73-d6d648ec3b87"/>
+        <COMPID name="Inscription" mc="Standard.UseCase" uid="a5add7bd-7d1d-426f-a5d3-20a0801d60e4"/>
+        <COMPID name="Editer Candidature" mc="Standard.UseCase" uid="22251683-9f3e-48e8-847a-f1b3e928cdde"/>
+        <COMPID name="Deposer candidature" mc="Standard.UseCase" uid="ebaf071a-9515-4398-943d-c7fbbebe12eb"/>
+        <COMPID name="Effectuer un vote" mc="Standard.UseCase" uid="3745a101-ff5f-4cd0-a4a4-126835d78052"/>
+        <COMPID name="Administrateur" mc="Standard.Actor" uid="bd00857b-db4f-40ce-8c1b-36fd23c9811b"/>
+        <COMPID name="Etudiant" mc="Standard.Actor" uid="1a13b4b9-f4df-48d2-89c1-21902105c0f2"/>
+        <COMPID name="Candidat" mc="Standard.Actor" uid="86cdcbf4-6c93-4567-919c-d82623e9d92e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation" mc="Standard.UseCaseDiagram" uid="711932db-8e1e-4b83-9d27-1b304ddb4a9a"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="54a2ddf6-f6da-4b71-8701-8a21b0937eae"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Ce diagramme englobe tous les cas d'utilisation]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

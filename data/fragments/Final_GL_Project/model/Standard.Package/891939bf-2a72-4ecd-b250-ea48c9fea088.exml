@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Class diagram" version="4">
+  <OBJECT>
+    <ID name="Class diagram" mc="Standard.Package" uid="891939bf-2a72-4ecd-b250-ea48c9fea088"/>
+    <PID name="final_gl_project" mc="Standard.Package" uid="d6c329cc-2ae9-4a17-befa-598e098fd140"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Class diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CANDIDAT" mc="Standard.Class" uid="7d9e3d27-e671-46ab-ad55-e74391f9fe02"/>
+        <COMPID name="CANDIDATURE" mc="Standard.Class" uid="ace2f191-c71e-467b-bb77-d0232b92f737"/>
+        <COMPID name="ADMINISTRATEUR" mc="Standard.Class" uid="b385f1a5-cc8d-43be-9140-6d36de5c06bc"/>
+        <COMPID name="ELECTION" mc="Standard.Class" uid="62e33f06-b03b-4c8e-a7aa-62a44bb74e66"/>
+        <COMPID name="ETUDIANT" mc="Standard.Class" uid="a13d4de6-3083-4f2d-bd6a-444db13472c8"/>
+        <COMPID name="Compte" mc="Standard.Class" uid="7883b3d8-edca-4285-b0b5-b10c28632878"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Class Diagram" mc="Standard.ClassDiagram" uid="4dbfd447-0c0e-4653-b969-ddb1a06d1bf8"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="a8dc5566-5dab-4a0a-af5a-cd6a26fd05f3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[les diagrammes de classes sont les plans de votre système ou sous-système]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

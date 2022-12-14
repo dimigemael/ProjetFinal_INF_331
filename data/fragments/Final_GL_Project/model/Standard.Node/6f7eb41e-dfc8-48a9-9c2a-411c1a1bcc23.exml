@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SGBD ( Replication )" version="4">
+  <OBJECT>
+    <ID name="SGBD ( Replication )" mc="Standard.Node" uid="6f7eb41e-dfc8-48a9-9c2a-411c1a1bcc23"/>
+    <PID name="Deploiement_Diagram" mc="Standard.Package" uid="5cfdd730-6f0c-452c-b864-70537e04180e"/>
+    <ATTRIBUTES>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Private</ATT>
+      <ATT name="Name"><![CDATA[SGBD ( Replication )]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="Note" mc="Infrastructure.Note" uid="02aeaea2-a4cd-44ba-b0a8-bfc945e2ae8a"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Pour avoir une copie des données de la base de données principale pour prévenir les pannes de la base de données principale]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"><![CDATA[Note]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

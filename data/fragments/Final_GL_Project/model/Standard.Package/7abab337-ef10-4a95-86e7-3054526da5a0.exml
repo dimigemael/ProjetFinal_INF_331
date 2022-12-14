@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="commucation_parametrer_election" version="4">
+  <OBJECT>
+    <ID name="commucation_parametrer_election" mc="Standard.Package" uid="7abab337-ef10-4a95-86e7-3054526da5a0"/>
+    <PID name="Communication_Diagram" mc="Standard.Package" uid="08f0be29-1187-47e6-b564-f357f0668a9f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[commucation_parametrer_election]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="0b922f40-6e0c-4763-89be-c25375be09f4"/>
+      </COMP>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="retourner nombre candidats()" mc="Standard.InformationFlow" uid="bff61f16-4a63-442e-8f5b-6f22b017957d"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[retourner nombre candidats()]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Election" mc="Standard.CommunicationNode" uid="f6f937a0-3f24-4b59-8594-a0f6d22b96ad"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="compte" mc="Standard.CommunicationNode" uid="45d6c5cd-c5d5-400a-bf98-bc1af58c80dc"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="c3926d65-323f-41bb-b1ce-c299da0621d7"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="compte" mc="Standard.CommunicationNode" uid="45d6c5cd-c5d5-400a-bf98-bc1af58c80dc"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Etudiant" mc="Standard.CommunicationNode" uid="f83f8600-c36b-4026-ae66-d1e70bbcd2c1"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="4869265e-7a99-4f94-be82-41c233deb1c8"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="compte" mc="Standard.CommunicationNode" uid="45d6c5cd-c5d5-400a-bf98-bc1af58c80dc"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Etudiant" mc="Standard.CommunicationNode" uid="f83f8600-c36b-4026-ae66-d1e70bbcd2c1"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ntification succes()" mc="Standard.InformationFlow" uid="7841d1d2-780d-4ad4-a2f8-deecb30fc09a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[ntification succes()]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Election" mc="Standard.CommunicationNode" uid="f6f937a0-3f24-4b59-8594-a0f6d22b96ad"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="compte" mc="Standard.CommunicationNode" uid="45d6c5cd-c5d5-400a-bf98-bc1af58c80dc"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

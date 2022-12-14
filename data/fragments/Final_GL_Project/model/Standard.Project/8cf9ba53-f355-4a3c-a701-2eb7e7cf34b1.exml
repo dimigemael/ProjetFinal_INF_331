@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Final_GL_Project" version="4">
+  <OBJECT>
+    <ID name="Final_GL_Project" mc="Standard.Project" uid="8cf9ba53-f355-4a3c-a701-2eb7e7cf34b1"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Final_GL_Project]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="final_gl_project" mc="Standard.Package" uid="d6c329cc-2ae9-4a17-befa-598e098fd140"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Final_GL_Project" mc="Infrastructure.DiagramSet" uid="eb73537b-5122-435b-a826-07f325910f2c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

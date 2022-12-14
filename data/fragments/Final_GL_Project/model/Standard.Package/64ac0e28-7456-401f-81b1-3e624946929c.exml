@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Package_Diagram" version="4">
+  <OBJECT>
+    <ID name="Package_Diagram" mc="Standard.Package" uid="64ac0e28-7456-401f-81b1-3e624946929c"/>
+    <PID name="final_gl_project" mc="Standard.Package" uid="d6c329cc-2ae9-4a17-befa-598e098fd140"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Package_Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Gestion_Etudiants" mc="Standard.Package" uid="b66e4cff-c0a4-41f4-a238-55d0e5769ff8"/>
+        <COMPID name="Gestion_Elections" mc="Standard.Package" uid="a0cba48b-7515-4731-9fbf-70e7823f4121"/>
+        <COMPID name="Administrateur" mc="Standard.Package" uid="ef69da50-6eb1-4c61-9e4b-3e32de183b6e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Package_Diagram (PackageContentStructureDiagramTemplate)" mc="Standard.ClassDiagram" uid="be1e2107-db6e-48e4-997f-667d72a40491"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

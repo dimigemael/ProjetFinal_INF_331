@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Poste_Client" version="4">
+  <OBJECT>
+    <ID name="Poste_Client" mc="Standard.Node" uid="ea207bfd-2a46-474c-a225-52797bd96c6c"/>
+    <PID name="Deploiement_Diagram" mc="Standard.Package" uid="5cfdd730-6f0c-452c-b864-70537e04180e"/>
+    <ATTRIBUTES>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Poste_Client]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="Note" mc="Infrastructure.Note" uid="f1d4f99b-2171-4e39-8ff3-7ac6f7ba87d3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Représentant l'outil que les clients ( Candidat, élèves) peuvent utilisépour se connecter à notre application comme un téléphone portable ou un ordinateur]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"><![CDATA[Note]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

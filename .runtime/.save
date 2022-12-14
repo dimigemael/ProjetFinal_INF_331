@@ -1,0 +1,17 @@
+#Wed Dec 14 15:02:39 WAT 2022
+org.modelio.app.diagram.editor.OpenedDiagrams4='Sequence_dep\u00F4t_candidature' {ad9d7687-901e-4141-903b-202d06fb4cdd} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='Class Diagram' {4dbfd447-0c0e-4653-b969-ddb1a06d1bf8} Standard.ClassDiagram
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/BaldrTech/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams2='Gestion_Candidatures_Use_Case' {724a43cc-220c-4662-8f4d-5081cc057385} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='Diagramme de cas d'utilisation' {711932db-8e1e-4b83-9d27-1b304ddb4a9a} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='Diagramme de cas d'utilisation Effectuer_Vote_Use_Case' {dba3b88a-9b2d-4fdb-a651-f9a119aba964} Standard.UseCaseDiagram
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/BaldrTech/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.app.diagram.editor.OpenedDiagrams11='Diagramme d'objet Object_Diagram' {eeefdcaa-7f38-43ed-953a-06c7ba09046d} Standard.ObjectDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams10='Diagramme d'activit\u00E9 Activity' {afb863d2-275a-4e8d-ae7c-66fed89b865b} Standard.ActivityDiagram
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/BaldrTech/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/BaldrTech/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams9='Diagramme d'activit\u00E9 Activity' {f60459cd-565b-437d-ba69-741b11a55b2b} Standard.ActivityDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams8='Diagramme d'activit\u00E9 Activity' {067c9722-df78-4a2c-b01b-98ef0c04f876} Standard.ActivityDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams7='Diagramme de s\u00E9quence Interaction1' {b529a012-3207-4603-bbc8-72636d813f66} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams6='Sequence_Parametrer_\u00E9lection' {3ce63c32-7c5c-444a-8083-0b570a56c442} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams5='Diagramme de communication Communication Interaction' {3680400e-841f-467f-b39b-898c34b74875} Standard.CommunicationDiagram

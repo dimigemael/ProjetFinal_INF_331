@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Parametrer_Election_Use_Case" version="4">
+  <OBJECT>
+    <ID name="Parametrer_Election_Use_Case" mc="Standard.Package" uid="2ea21eb9-56d8-47ab-84b5-cdb7c901919d"/>
+    <PID name="Use_Case_Diagram" mc="Standard.Package" uid="fb50c57a-6c16-4cd0-a080-640195d74e17"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Parametrer_Election_Use_Case]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Admin" mc="Standard.Actor" uid="5e33b42d-a02f-4ea9-aa03-41c3a9487b63"/>
+        <COMPID name="Definir_période" mc="Standard.UseCase" uid="d701fc12-5943-4f54-b430-f4e970b397b7"/>
+        <COMPID name="Promulger_résultats" mc="Standard.UseCase" uid="5014e571-f2dc-4d0b-a722-b022c0c5e19e"/>
+        <COMPID name="Authentification" mc="Standard.UseCase" uid="fc4902dc-2572-463a-8f01-a375f7f46785"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Parametrer_Election_Use_Case" mc="Standard.UseCaseDiagram" uid="adc8cd80-24a1-46e8-9963-09f2637456a7"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="49f8732a-7dad-45ea-b1da-3446a65951df"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[ce diagramme permet de determiner la periode électorale c'est-à-dire date de debut et de fin.]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

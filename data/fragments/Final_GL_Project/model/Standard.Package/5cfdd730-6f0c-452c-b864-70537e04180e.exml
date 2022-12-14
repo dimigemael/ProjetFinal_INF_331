@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Deploiement_Diagram" version="4">
+  <OBJECT>
+    <ID name="Deploiement_Diagram" mc="Standard.Package" uid="5cfdd730-6f0c-452c-b864-70537e04180e"/>
+    <PID name="final_gl_project" mc="Standard.Package" uid="d6c329cc-2ae9-4a17-befa-598e098fd140"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Deploiement_Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Serveur_Web" mc="Standard.Node" uid="38ea620d-171a-4333-9d52-c11a8b95c551"/>
+        <COMPID name="Poste_Client" mc="Standard.Node" uid="ea207bfd-2a46-474c-a225-52797bd96c6c"/>
+        <COMPID name="SGBD ( MySQL )" mc="Standard.Node" uid="baefd38c-cd59-47ae-a2e0-0ea53b20620f"/>
+        <COMPID name="SGBD ( Replication )" mc="Standard.Node" uid="6f7eb41e-dfc8-48a9-9c2a-411c1a1bcc23"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de déploiement Package_Diagram" mc="Standard.DeploymentDiagram" uid="9ab28686-c5cd-4e89-9aca-14031b303e82"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

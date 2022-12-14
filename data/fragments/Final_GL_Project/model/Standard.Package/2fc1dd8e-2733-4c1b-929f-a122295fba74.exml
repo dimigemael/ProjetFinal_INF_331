@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activité_Inscription" version="4">
+  <OBJECT>
+    <ID name="Activité_Inscription" mc="Standard.Package" uid="2fc1dd8e-2733-4c1b-929f-a122295fba74"/>
+    <PID name="Acticity_Diagram" mc="Standard.Package" uid="eb6c0671-3290-4521-89e3-cd192d11f51c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Activité_Inscription]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="ModuleInscription" mc="Standard.Activity" uid="6b209ecd-bb79-4cc1-ba2e-a964b3b2f6ee"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

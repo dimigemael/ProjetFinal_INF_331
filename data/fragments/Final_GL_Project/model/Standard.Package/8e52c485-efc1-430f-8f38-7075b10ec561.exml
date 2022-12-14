@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Acticité_Effectuer_Vote" version="4">
+  <OBJECT>
+    <ID name="Acticité_Effectuer_Vote" mc="Standard.Package" uid="8e52c485-efc1-430f-8f38-7075b10ec561"/>
+    <PID name="Acticity_Diagram" mc="Standard.Package" uid="eb6c0671-3290-4521-89e3-cd192d11f51c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Acticité_Effectuer_Vote]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="ModuleEffectuerVote" mc="Standard.Activity" uid="e0143a77-28d2-4587-a9a6-b2215068bdbe"/>
+      </COMP>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="[Inscription=OK]" mc="Standard.InformationFlow" uid="87e95afd-ec35-4eaf-b1fd-c458022fa8dd"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[[Inscription=OK]]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="01a5d4c1-d437-4790-be92-5acb98ff47bb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Affichage du menu candidat" mc="Standard.OpaqueAction" uid="9fb4c071-7598-41eb-9a8f-86b3d168671d"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="[Inscription!= OK]" mc="Standard.InformationFlow" uid="d1e09701-0d8b-4e4c-a56b-f0a7d4226716"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[[Inscription!= OK]]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="01a5d4c1-d437-4790-be92-5acb98ff47bb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Cliquer sur le bouton Inscription" mc="Standard.OpaqueAction" uid="596ac8c3-bdd0-4c18-b15a-32d67e928d95"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="[Verification!=vrai]" mc="Standard.InformationFlow" uid="397a7741-2455-4033-b62c-54d89cbd6fde"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[[Verification!=vrai]]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="69261ab1-861c-4d8a-8da5-84099efddace"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Effectuer - Vote" mc="Standard.OpaqueAction" uid="29657420-d105-4e20-ba55-73d425e684b5"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="[Verification=Vrai]" mc="Standard.InformationFlow" uid="5f0795fb-a8e6-4129-bb30-62c326dcd88d"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[[Verification=Vrai]]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="69261ab1-861c-4d8a-8da5-84099efddace"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Message de confirmation" mc="Standard.OpaqueAction" uid="d0a0c0d5-98ff-4c1a-b90c-852a8a51e5c2"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
